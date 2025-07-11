@@ -3,6 +3,6 @@
 // hello
 
 int main(){
-  char* x = "hello world";
+  const char* x = "hello world";
   printf("hello world");
 };
