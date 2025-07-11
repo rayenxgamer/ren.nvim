@@ -8,7 +8,7 @@ local colors = {
 	-- green = "#0F5132",
   -- yellow = "#E1AD01",
   yellow = "#FFDD33",
-  yellow_darker = "8A4900",
+  yellow_darker = "#8A4900",
 }
 
 return colors
