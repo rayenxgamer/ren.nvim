@@ -15,11 +15,11 @@ theme.set_highlights = function()
 	hl(0, "CursorLineNr", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "Statement", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "TelescopeSelection", { fg = c.fg, bg = c.gray, italic = true })
-	hl(0, "CursorLine", { fg = "NONE", bg = c.gray, italic = true })
+	hl(0, "CursorLine", { fg = "NONE", bg = c.yellow, italic = true })
 	hl(0, "StatusLine", { fg = c.fg, bg = c.gray, italic = true })
 
 	-- special words
-	hl(0, "Comment", { fg = c.brown, bg = "NONE", italic = true })
+	hl(0, "Comment", { fg = c.yellow_darker, bg = "NONE", italic = true })
 	hl(0, "Special", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "@variable", { fg = c.fg, bg = "NONE", italic = true })
 	hl(0, "Constant", { fg = c.fg, bg = "NONE", italic = true })
