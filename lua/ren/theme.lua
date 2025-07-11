@@ -15,7 +15,7 @@ theme.set_highlights = function()
 	hl(0, "CursorLineNr", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "Statement", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "TelescopeSelection", { fg = c.fg, bg = c.gray, italic = true })
-	hl(0, "CursorLine", { fg = "NONE", bg = c.yellow, italic = true })
+	hl(0, "CursorLine", { fg = "NONE", bg = c.bg, italic = true })
 	hl(0, "StatusLine", { fg = c.bg_darker, bg = c.fg, italic = true })
 
 	-- special words
@@ -27,7 +27,7 @@ theme.set_highlights = function()
 	hl(0, "String", { fg = c.green, bg = "NONE", italic = true })
 	hl(0, "Identifier", { fg = c.fg, bg = "NONE", italic = true })
 	hl(0, "Title", { fg = c.yellow, bg = "NONE", bold = true })
-	hl(0, "Type", { fg = c.gray, bg = "NONE", bold = true })
+	hl(0, "Type", { fg = c.fg, bg = "NONE", bold = true })
 
 	-- diagnostics
 	hl(0, "DiagnosticError", { fg = c.red, bg = "NONE", bold = true })
