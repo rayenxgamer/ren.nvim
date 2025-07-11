@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// hello
+
 int main(){
-  if
+  char* x = "hello world";
 };
