@@ -5,7 +5,9 @@ local colors = {
 	white = "#ffffff",
 	gray = "#282828",
 	green = "#0F5132",
-	yellow = "#E1AD01",
+  -- yellow = "#E1AD01",
+  yellow = "FFDD33",
+  yellow_darker = "8A4900",
 }
 
 return colors
