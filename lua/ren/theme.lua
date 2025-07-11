@@ -13,10 +13,11 @@ theme.set_highlights = function()
 	hl(0, "Pmenu", { fg = c.fg, bg = c.bg_darker })
 	hl(0, "SignColumn", { fg = "NONE", bg = c.bg })
 	hl(0, "CursorLineNr", { fg = c.yellow, bg = "NONE", bold = false })
+	hl(0, "Cursor", { fg = c.yellow, bg = "NONE", bold = false })
 	hl(0, "Statement", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "TelescopeSelection", { fg = c.fg, bg = c.gray, italic = false })
 	hl(0, "CursorLine", { fg = "NONE", bg = c.bg, italic = false })
-	hl(0, "StatusLine", { fg = c.bg_darker, bg = c.fg, italic = false })
+	hl(0, "StatusLine", { fg = c.bg_darker, bg = c.bg_darker, italic = false })
 
 	-- special words
 	hl(0, "Comment", { fg = c.yellow_darker, bg = "NONE", italic = false })
